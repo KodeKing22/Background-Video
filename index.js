@@ -2,6 +2,7 @@ const btn = document.querySelector(".btn");
 const video = document.querySelector(".background-video");
 const fa = document.querySelector(".fa");
 
+
 btn.addEventListener("click", ()=>{
     if(btn.classList.contains("pause")){
         btn.classList.remove("pause");
@@ -15,4 +16,6 @@ btn.addEventListener("click", ()=>{
         fa.classList.add("fa-pause");
 
     }
-})
+});
+
+
